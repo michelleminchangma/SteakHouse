@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Steak Brazil</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="steakbrazil.css">
+	</head>
+	<body>
+		<div class="wrapper">
+
+			<nav>
+				<img id="logoMobile" src="images/logo.png" alt="Le logo de l'entreprise">
+				<ul>
+					<li><a href="acceuil.html">Acceuil</a></li>
+					<li><a href="menu.html">Menu</a></li>
+					<li><a href="reservation.html">Reservation</a></li>
+					<li><a href="apropos.html">À propos</a></li>
+					<li><a href="design.html">Design</a></li>
+				</ul>
+			</nav>
+
+			<aside>
+				<img id="logo" src="images/logo.png" alt="Le logo de l'entreprise">
+
+				<h2>BIENVENUE</h2>
+				<p>
+					à la Stake House la plus brésilienne de Montréal. Ici vous goûterez des viandes de la meilleure qualité, en écoutant l'agréables samba et bossa nova. Venez goûter notre traditionnelle "caipirinha" BRAZIL.
+				</p>
+				<h2>OUVERTURE</h2>
+				<p>
+					RESTAURANT</br>
+					Lundi - Jeudi 16h - 21h</br>
+					Vendredi et Samedi 17h - 23h</br>
+					Dimanche 16h - 22h</br>
+				</p>
+				<p>
+					BAR</br>
+					Lundi - Samedi 16h - 23h</br>
+					Dimanche 16h - 22h</br>
+				</p>
+
+				<h2>RESERVATION</h2>
+				<p>
+					Réservations limitées acceptées 7 jours par semaine, s'il vous plaît appelez pour la disponibilité.
+				</p>
+				<p>
+					Par téléphone: (438) 234-5678</br>
+					En ligne: <a href="reservation.html">Reservation</a>
+				</p>
+
+				<h2>ADRESSE</h2>
+				<p>
+					2900 Edouard Montpetit Blvd,</br>
+					Montreal, QC H3T 1J4
+				</p>
+				<footer>
+					<p>
+						Copyright &copy; 2018</br>
+						Stake Brazil</br>
+						Tous droits réservés</br>
+						<a href="mailto:dictionarylearners@gmail.com">contactez@stakebrazil.com</a>
+					</p>
+				</footer>
+			</aside>
+
+			<main>
+				<h1>RÉSERVATION</h1>
+				<p>Réservez votre table pour que nous pourrions vous servire mieux.</p>
+				<form method="post" action="http://www-etud.iro.umontreal.ca/~chartral/ift1005/form_print.php">
+					<p>Les informations obligatoires sont marquées d'un astérisque (*).</p>
+					<label for="nom">* Nom:</label>
+					<input type="text" name="nom" id="nom" required="required">
+					<label for="tel">* Tel:</label>
+					<input type="tel" name="tel" id="tel" required="required">
+					<label for="email">* E-mail:</label>
+					<input type="email" name="email" id="email" required="required">
+					<label for="date">* Date:</label>
+					<input type="date" name="date" id="date" required="required">
+					<label for="time">* Heure:</label>
+					<input type="time" name="time" id="time" required="required">
+					<label for="no_of_people">* No. person:</label>
+					<input type="text" name="no_of_people" id="no_of_people" required="required">
+					<label for="comment">* Commentaires:</label>
+					<textarea name="comment" id="comment" rows="2" cols="20" required="required"></textarea>
+					<input type="submit" id="submettre" value="Send Now">
+				</form>
+			</main>
+
+		</div>
+	</body>
+</html>
